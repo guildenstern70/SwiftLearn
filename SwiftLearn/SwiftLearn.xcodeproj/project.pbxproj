@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A99A9771B1CFE5200072E11 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* classes.swift */; };
+		2A99A9791B1CFEA900072E11 /* structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9781B1CFEA900072E11 /* structures.swift */; };
 		2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB7E1B1CDFB1009E3A5D /* main.swift */; };
 		2A9ECB861B1CE00D009E3A5D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB851B1CE00D009E3A5D /* README.md */; };
 		2A9ECB891B1CE222009E3A5D /* collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB881B1CE222009E3A5D /* collections.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A99A9761B1CFE5100072E11 /* classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
+		2A99A9781B1CFEA900072E11 /* structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = structures.swift; sourceTree = "<group>"; };
 		2A9ECB7B1B1CDFB1009E3A5D /* SwiftLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLearn; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9ECB7E1B1CDFB1009E3A5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2A9ECB851B1CE00D009E3A5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				2A9ECB7E1B1CDFB1009E3A5D /* main.swift */,
 				2A9ECB881B1CE222009E3A5D /* collections.swift */,
 				2A9ECB8A1B1CE2BC009E3A5D /* variables.swift */,
+				2A99A9761B1CFE5100072E11 /* classes.swift */,
+				2A99A9781B1CFEA900072E11 /* structures.swift */,
 			);
 			path = SwiftLearn;
 			sourceTree = "<group>";
@@ -108,7 +114,7 @@
 				};
 			};
 			buildConfigurationList = 2A9ECB761B1CDFB1009E3A5D /* Build configuration list for PBXProject "SwiftLearn" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -133,6 +139,8 @@
 				2A9ECB891B1CE222009E3A5D /* collections.swift in Sources */,
 				2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */,
 				2A9ECB8B1B1CE2BC009E3A5D /* variables.swift in Sources */,
+				2A99A9771B1CFE5200072E11 /* classes.swift in Sources */,
+				2A99A9791B1CFEA900072E11 /* structures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +258,7 @@
 				2A9ECB841B1CDFB1009E3A5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -14,5 +14,8 @@ println("SwiftLearn v.\(VERSION)")
 println()
 
 variablesAndValues()
-printCards()
+collectionArray()
+collectionDictionary()
+setResolution()
+
 
