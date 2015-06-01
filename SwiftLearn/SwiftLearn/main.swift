@@ -8,5 +8,11 @@
 
 import Foundation
 
-println("Hello, World!")
+let VERSION = "0.1"
+
+println("SwiftLearn v.\(VERSION)")
+println()
+
+variablesAndValues()
+printCards()
 

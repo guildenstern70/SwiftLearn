@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB7E1B1CDFB1009E3A5D /* main.swift */; };
 		2A9ECB861B1CE00D009E3A5D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB851B1CE00D009E3A5D /* README.md */; };
+		2A9ECB891B1CE222009E3A5D /* collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB881B1CE222009E3A5D /* collections.swift */; };
+		2A9ECB8B1B1CE2BC009E3A5D /* variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB8A1B1CE2BC009E3A5D /* variables.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,8 @@
 		2A9ECB7E1B1CDFB1009E3A5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2A9ECB851B1CE00D009E3A5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2A9ECB871B1CE01D009E3A5D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2A9ECB881B1CE222009E3A5D /* collections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collections.swift; sourceTree = "<group>"; };
+		2A9ECB8A1B1CE2BC009E3A5D /* variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = variables.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				2A9ECB7E1B1CDFB1009E3A5D /* main.swift */,
+				2A9ECB881B1CE222009E3A5D /* collections.swift */,
+				2A9ECB8A1B1CE2BC009E3A5D /* variables.swift */,
 			);
 			path = SwiftLearn;
 			sourceTree = "<group>";
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9ECB861B1CE00D009E3A5D /* README.md in Sources */,
+				2A9ECB891B1CE222009E3A5D /* collections.swift in Sources */,
 				2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */,
+				2A9ECB8B1B1CE2BC009E3A5D /* variables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
