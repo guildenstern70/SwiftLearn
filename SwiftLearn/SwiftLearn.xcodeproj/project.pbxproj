@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB7E1B1CDFB1009E3A5D /* main.swift */; };
+		2A9ECB861B1CE00D009E3A5D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB851B1CE00D009E3A5D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		2A9ECB7B1B1CDFB1009E3A5D /* SwiftLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLearn; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9ECB7E1B1CDFB1009E3A5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2A9ECB851B1CE00D009E3A5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2A9ECB871B1CE01D009E3A5D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		2A9ECB721B1CDFB1009E3A5D = {
 			isa = PBXGroup;
 			children = (
+				2A9ECB871B1CE01D009E3A5D /* LICENSE */,
+				2A9ECB851B1CE00D009E3A5D /* README.md */,
 				2A9ECB7D1B1CDFB1009E3A5D /* SwiftLearn */,
 				2A9ECB7C1B1CDFB1009E3A5D /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9ECB861B1CE00D009E3A5D /* README.md in Sources */,
 				2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
