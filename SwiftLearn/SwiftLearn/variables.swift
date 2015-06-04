@@ -8,7 +8,7 @@
 
 import Foundation
 
-func variablesAndValues()
+func variablesAndValues()-> Double
 {
     // Variable
     var greeting: String = "Hello World"
@@ -24,6 +24,8 @@ func variablesAndValues()
     var version: Double = 1.0
     let introduced: Int = 2014
     let isAwesome: Bool = true
+    
+    return Double(introduced)*version
 
 }
 
