@@ -17,5 +17,6 @@ variablesAndValues()
 collectionArray()
 collectionDictionary()
 setResolution()
+testClosures()
 
 

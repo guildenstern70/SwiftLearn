@@ -15,12 +15,10 @@ class SwiftLearnTests: XCTestCase
     override func setUp()
     {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown()
     {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
     
@@ -28,6 +26,16 @@ class SwiftLearnTests: XCTestCase
     {
         let person = Person(name: "Alessio", surname: "Saltarin")
         XCTAssertEqual(person.name, "Alessio")
+    }
+    
+    func testClosures()
+    {
+        var numbers = [20, 19, 7, 12]
+        let sumLessThanTen = sumNumbers(numbers, lessThanTen)
+        let sumEvens = sumNumbers(numbers, isEven)
+        
+        XCTAssertEqual(sumLessThanTen, 7)
+        XCTAssertEqual(sumEvens, 32)
     }
     
 }

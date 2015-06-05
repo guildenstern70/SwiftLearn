@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A8AE3401B21E8EF0028AD3B /* closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE33F1B21E8EF0028AD3B /* closures.swift */; };
+		2A8AE3411B21EA370028AD3B /* closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE33F1B21E8EF0028AD3B /* closures.swift */; };
 		2A99A9771B1CFE5200072E11 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* classes.swift */; };
 		2A99A9791B1CFEA900072E11 /* structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9781B1CFEA900072E11 /* structures.swift */; };
 		2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB7E1B1CDFB1009E3A5D /* main.swift */; };
@@ -30,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A8AE33F1B21E8EF0028AD3B /* closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = closures.swift; sourceTree = "<group>"; };
 		2A99A9761B1CFE5100072E11 /* classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
 		2A99A9781B1CFEA900072E11 /* structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = structures.swift; sourceTree = "<group>"; };
 		2A9ECB7B1B1CDFB1009E3A5D /* SwiftLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLearn; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +92,7 @@
 				2A9ECB8A1B1CE2BC009E3A5D /* variables.swift */,
 				2A99A9761B1CFE5100072E11 /* classes.swift */,
 				2A99A9781B1CFEA900072E11 /* structures.swift */,
+				2A8AE33F1B21E8EF0028AD3B /* closures.swift */,
 			);
 			path = SwiftLearn;
 			sourceTree = "<group>";
@@ -199,6 +203,7 @@
 			files = (
 				2A9ECB861B1CE00D009E3A5D /* README.md in Sources */,
 				2A9ECB891B1CE222009E3A5D /* collections.swift in Sources */,
+				2A8AE3401B21E8EF0028AD3B /* closures.swift in Sources */,
 				2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */,
 				2A9ECB8B1B1CE2BC009E3A5D /* variables.swift in Sources */,
 				2A99A9771B1CFE5200072E11 /* classes.swift in Sources */,
@@ -211,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AB4B61F1B209EB6002B52C2 /* classes.swift in Sources */,
+				2A8AE3411B21EA370028AD3B /* closures.swift in Sources */,
 				2AB4B61B1B209A77002B52C2 /* SwiftLearnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
