@@ -44,7 +44,6 @@ func testClosures()
     
     println("Sum of less than 10 numbers: \(sumLessThanTen)")
     println("Sum of even numbers: \(sumEvens)")
-    
 }
 
 
