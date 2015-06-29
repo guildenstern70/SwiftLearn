@@ -12,6 +12,7 @@ import Foundation
 // Arrays (generic collection that allows duplicate)
 func collectionArray()
 {
+    // Collection of Strings
     var cardNames: [String] = ["Jack", "Queen", "King"]
     cardNames[1] = "-Queen-"
     
@@ -23,6 +24,9 @@ func collectionArray()
     
     // Add item at pos
     cardNames.insert("Nine", atIndex: 0)
+    
+    // Array slice (from...to)
+    let slice = cardNames[2...cardNames.count-1]
     
     let arrayItems = cardNames.count
     println("Array contain \(arrayItems) items")
