@@ -9,12 +9,24 @@
 
 import Foundation
 
-// Arrays
+// Arrays (generic collection that allows duplicate)
 func collectionArray()
 {
     var cardNames: [String] = ["Jack", "Queen", "King"]
     cardNames[1] = "-Queen-"
+    
+    // Merge arrays
     cardNames += ["Ace"]
+    
+    // Add item
+    cardNames.append("Ten")
+    
+    // Add item at pos
+    cardNames.insert("Nine", atIndex: 0)
+    
+    let arrayItems = cardNames.count
+    println("Array contain \(arrayItems) items")
+    
     for card in cardNames
     {
         println(card)
