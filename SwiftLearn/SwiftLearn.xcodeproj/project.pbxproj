@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1DFCDF1B414B9A00DC7CC4 /* inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DFCDE1B414B9A00DC7CC4 /* inheritance.swift */; };
+		2A1DFCE11B4152C700DC7CC4 /* controlflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DFCE01B4152C700DC7CC4 /* controlflow.swift */; };
 		2A8AE3401B21E8EF0028AD3B /* closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE33F1B21E8EF0028AD3B /* closures.swift */; };
 		2A8AE3411B21EA370028AD3B /* closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE33F1B21E8EF0028AD3B /* closures.swift */; };
 		2A99A9771B1CFE5200072E11 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* classes.swift */; };
@@ -32,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A1DFCDE1B414B9A00DC7CC4 /* inheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inheritance.swift; sourceTree = "<group>"; };
+		2A1DFCE01B4152C700DC7CC4 /* controlflow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controlflow.swift; sourceTree = "<group>"; };
 		2A8AE33F1B21E8EF0028AD3B /* closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = closures.swift; sourceTree = "<group>"; };
 		2A99A9761B1CFE5100072E11 /* classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
 		2A99A9781B1CFEA900072E11 /* structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = structures.swift; sourceTree = "<group>"; };
@@ -93,6 +97,8 @@
 				2A99A9761B1CFE5100072E11 /* classes.swift */,
 				2A99A9781B1CFEA900072E11 /* structures.swift */,
 				2A8AE33F1B21E8EF0028AD3B /* closures.swift */,
+				2A1DFCDE1B414B9A00DC7CC4 /* inheritance.swift */,
+				2A1DFCE01B4152C700DC7CC4 /* controlflow.swift */,
 			);
 			path = SwiftLearn;
 			sourceTree = "<group>";
@@ -205,8 +211,10 @@
 				2A9ECB891B1CE222009E3A5D /* collections.swift in Sources */,
 				2A8AE3401B21E8EF0028AD3B /* closures.swift in Sources */,
 				2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */,
+				2A1DFCE11B4152C700DC7CC4 /* controlflow.swift in Sources */,
 				2A9ECB8B1B1CE2BC009E3A5D /* variables.swift in Sources */,
 				2A99A9771B1CFE5200072E11 /* classes.swift in Sources */,
+				2A1DFCDF1B414B9A00DC7CC4 /* inheritance.swift in Sources */,
 				2A99A9791B1CFEA900072E11 /* structures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

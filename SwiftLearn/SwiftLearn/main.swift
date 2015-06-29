@@ -8,7 +8,7 @@
 
 import Foundation
 
-let VERSION = "0.2"
+let VERSION = "0.3"
 
 println("SwiftLearn v.\(VERSION)")
 println()
@@ -19,6 +19,10 @@ collectionDictionary()
 setResolution()
 testClosures()
 somePersons()
+testInheritance()
+testLoops()
+testConditional()
+
 
 
 
