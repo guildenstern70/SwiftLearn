@@ -38,12 +38,12 @@ func isEven(number: Int) -> Bool
 
 func testClosures()
 {
-    var numbers = [20, 19, 7, 12]
-    let sumLessThanTen = sumNumbers(numbers, lessThanTen)
-    let sumEvens = sumNumbers(numbers, isEven)
+    let numbers = [20, 19, 7, 12]
+    let sumLessThanTen = sumNumbers(numbers, condition: lessThanTen)
+    let sumEvens = sumNumbers(numbers, condition: isEven)
     
-    println("Sum of less than 10 numbers: \(sumLessThanTen)")
-    println("Sum of even numbers: \(sumEvens)")
+    print("Sum of less than 10 numbers: \(sumLessThanTen)")
+    print("Sum of even numbers: \(sumEvens)")
 }
 
 

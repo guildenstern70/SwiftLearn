@@ -31,8 +31,8 @@ class SwiftLearnTests: XCTestCase
     func testClosures()
     {
         var numbers = [20, 19, 7, 12]
-        let sumLessThanTen = sumNumbers(numbers, lessThanTen)
-        let sumEvens = sumNumbers(numbers, isEven)
+        let sumLessThanTen = sumNumbers(numbers, condition: lessThanTen)
+        let sumEvens = sumNumbers(numbers, condition: isEven)
         
         XCTAssertEqual(sumLessThanTen, 7)
         XCTAssertEqual(sumEvens, 32)

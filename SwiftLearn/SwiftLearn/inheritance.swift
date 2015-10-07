@@ -34,7 +34,7 @@ class ShapeFactory
     
     class func createSome(howmany: Int)
     {
-        for j in 1...howmany
+        for _ in 1...howmany
         {
             let nr: Int = Int(arc4random_uniform(6))
             let shape : Shape? = ShapeFactory.create(nr)
@@ -42,10 +42,10 @@ class ShapeFactory
             {
                 let theShape = shape!
                 let shapeDesc = theShape.description
-                print("\(shapeDesc) has been created.")
+                print("\(shapeDesc) has been created.", terminator: "")
                 let sideLen = Int(arc4random_uniform(99))
                 shape?.setSideLength(sideLen)
-                println(" Its perimeter is \(theShape.getPerimeter())")
+                print(" Its perimeter is \(theShape.getPerimeter())")
             }
         }
     }

@@ -11,14 +11,14 @@ import Foundation
 extension String
 {
     public func indexOf(char: Character) -> Int {
-        if let idx = find(self, char) {
-            return distance(self.startIndex, idx)
+        if let idx = self.characters.indexOf(char) {
+            return self.startIndex.distanceTo(idx)
         }
         return -1
     }
 }
 
-public class Person : Printable
+public class Person : CustomStringConvertible
 {
     
     var name: String
@@ -56,14 +56,14 @@ public class Person : Printable
             let idx = complete.indexOf(needle)
             if (idx > 0)
             {
-                let uni_idx = advance(complete.startIndex, idx)
-                let uni_idx2 = advance(complete.startIndex, idx+1)
+                let uni_idx = complete.startIndex.advancedBy(idx)
+                let uni_idx2 = complete.startIndex.advancedBy(idx+1)
                 self.name = complete.substringToIndex(uni_idx)
                 self.surname = complete.substringFromIndex(uni_idx2)
             }
             else
             {
-                println("Please insert [Name Surname]")
+                print("Please insert [Name Surname]")
             }
         }
         
@@ -87,7 +87,7 @@ public class Person : Printable
     // Method with return value
     public func nameLength() -> Int
     {
-        return count(self.name)
+        return self.name.characters.count
     }
     
     
@@ -98,12 +98,12 @@ func somePersons()
 {
     let alessio = Person(name:"Alessio", surname:"Saltarin")
     let matteo = Person(name:"Matteo", surname:"Tenconi")
-    println(alessio)
+    print(alessio)
     alessio.swapNames()
-    println(alessio)
-    println("Alessio has \(alessio.nameLength()) chars.")
-    println(matteo)
+    print(alessio)
+    print("Alessio has \(alessio.nameLength()) chars.")
+    print(matteo)
     let dana = Person()
     dana.completeName = "Dana Sandu"
-    println(dana)
+    print(dana)
 }

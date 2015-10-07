@@ -16,7 +16,7 @@ struct Resolution
     
     func print()
     {
-        println("Resolution set to \(self.width)x\(self.height)")
+        Swift.print("Resolution set to \(self.width)x\(self.height)")
     }
 }
 

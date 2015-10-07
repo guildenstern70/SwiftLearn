@@ -26,14 +26,14 @@ func collectionArray()
     cardNames.insert("Nine", atIndex: 0)
     
     // Array slice (from...to)
-    let slice = cardNames[2...cardNames.count-1]
+    _ = cardNames[2...cardNames.count-1]
     
     let arrayItems = cardNames.count
-    println("Array contain \(arrayItems) items")
+    print("Array contain \(arrayItems) items")
     
     for card in cardNames
     {
-        println(card)
+        print(card)
     }
 }
 
@@ -48,7 +48,7 @@ func collectionDictionary()
     {
         if ((numbers[j]) != nil)
         {
-            println(numbers[j]!)
+            print(numbers[j]!)
         }
     }
 }

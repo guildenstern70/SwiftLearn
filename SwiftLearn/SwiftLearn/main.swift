@@ -10,8 +10,8 @@ import Foundation
 
 let VERSION = "0.3"
 
-println("SwiftLearn v.\(VERSION)")
-println()
+print("SwiftLearn v.\(VERSION)")
+print("")
 
 variablesAndValues()
 collectionArray()

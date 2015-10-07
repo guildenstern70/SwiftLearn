@@ -14,16 +14,16 @@ func variablesAndValues()-> Double
     var greeting: String = "Hello World"
     greeting += " of Swift"
     
-    println(greeting)
+    print(greeting)
     
     // Value
     let greeting_val = "Hello World"
-    println(greeting_val)
+    print(greeting_val)
     
     // Types
-    var version: Double = 1.0
+    let version: Double = 1.0
     let introduced: Int = 2014
-    let isAwesome: Bool = true
+    let _: Bool = true
     
     return Double(introduced)*version
 
