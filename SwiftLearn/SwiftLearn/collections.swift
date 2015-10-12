@@ -12,6 +12,14 @@ import Foundation
 // Arrays (generic collection that allows duplicate)
 func collectionArray()
 {
+    // Empty mutable collection
+    var listOfInts = [Int]()
+    listOfInts.append(10)
+    
+    // Array creation with initialization
+    let threeDoubles = [Double](count: 3, repeatedValue: 0.0)
+    print("Array threeDoubles contain \(threeDoubles.count) items")
+
     // Collection of Strings
     var cardNames: [String] = ["Jack", "Queen", "King"]
     cardNames[1] = "-Queen-"
