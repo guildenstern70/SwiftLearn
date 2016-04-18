@@ -1,5 +1,5 @@
 //
-//  closures.swift
+//  Closures.swift
 //  SwiftLearn
 //
 //  Created by Alessio Saltarin on 05/06/15.

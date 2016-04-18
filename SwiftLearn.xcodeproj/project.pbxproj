@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A1DFCDF1B414B9A00DC7CC4 /* inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DFCDE1B414B9A00DC7CC4 /* inheritance.swift */; };
-		2A1DFCE11B4152C700DC7CC4 /* controlflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DFCE01B4152C700DC7CC4 /* controlflow.swift */; };
-		2A8AE3401B21E8EF0028AD3B /* closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE33F1B21E8EF0028AD3B /* closures.swift */; };
-		2A8AE3411B21EA370028AD3B /* closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE33F1B21E8EF0028AD3B /* closures.swift */; };
-		2A99A9771B1CFE5200072E11 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* classes.swift */; };
-		2A99A9791B1CFEA900072E11 /* structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9781B1CFEA900072E11 /* structures.swift */; };
+		2A1DFCDF1B414B9A00DC7CC4 /* Inheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DFCDE1B414B9A00DC7CC4 /* Inheritance.swift */; };
+		2A1DFCE11B4152C700DC7CC4 /* ControlFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1DFCE01B4152C700DC7CC4 /* ControlFlow.swift */; };
+		2A8AE3401B21E8EF0028AD3B /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE33F1B21E8EF0028AD3B /* Closures.swift */; };
+		2A8AE3411B21EA370028AD3B /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE33F1B21E8EF0028AD3B /* Closures.swift */; };
+		2A99A9771B1CFE5200072E11 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* Classes.swift */; };
+		2A99A9791B1CFEA900072E11 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9781B1CFEA900072E11 /* Structures.swift */; };
 		2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB7E1B1CDFB1009E3A5D /* main.swift */; };
 		2A9ECB861B1CE00D009E3A5D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB851B1CE00D009E3A5D /* README.md */; };
-		2A9ECB891B1CE222009E3A5D /* collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB881B1CE222009E3A5D /* collections.swift */; };
-		2A9ECB8B1B1CE2BC009E3A5D /* variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB8A1B1CE2BC009E3A5D /* variables.swift */; };
+		2A9ECB891B1CE222009E3A5D /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB881B1CE222009E3A5D /* Collections.swift */; };
+		2A9ECB8B1B1CE2BC009E3A5D /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB8A1B1CE2BC009E3A5D /* Variables.swift */; };
 		2AB4B61B1B209A77002B52C2 /* SwiftLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB4B61A1B209A77002B52C2 /* SwiftLearnTests.swift */; };
-		2AB4B61F1B209EB6002B52C2 /* classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* classes.swift */; };
+		2AB4B61F1B209EB6002B52C2 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* Classes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,17 +34,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2A1DFCDE1B414B9A00DC7CC4 /* inheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inheritance.swift; sourceTree = "<group>"; };
-		2A1DFCE01B4152C700DC7CC4 /* controlflow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controlflow.swift; sourceTree = "<group>"; };
-		2A8AE33F1B21E8EF0028AD3B /* closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = closures.swift; sourceTree = "<group>"; };
-		2A99A9761B1CFE5100072E11 /* classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classes.swift; sourceTree = "<group>"; };
-		2A99A9781B1CFEA900072E11 /* structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = structures.swift; sourceTree = "<group>"; };
+		2A1DFCDE1B414B9A00DC7CC4 /* Inheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
+		2A1DFCE01B4152C700DC7CC4 /* ControlFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFlow.swift; sourceTree = "<group>"; };
+		2A8AE33F1B21E8EF0028AD3B /* Closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		2A99A9761B1CFE5100072E11 /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
+		2A99A9781B1CFEA900072E11 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		2A9ECB7B1B1CDFB1009E3A5D /* SwiftLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLearn; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9ECB7E1B1CDFB1009E3A5D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		2A9ECB851B1CE00D009E3A5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2A9ECB871B1CE01D009E3A5D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2A9ECB881B1CE222009E3A5D /* collections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collections.swift; sourceTree = "<group>"; };
-		2A9ECB8A1B1CE2BC009E3A5D /* variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = variables.swift; sourceTree = "<group>"; };
+		2A9ECB881B1CE222009E3A5D /* Collections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
+		2A9ECB8A1B1CE2BC009E3A5D /* Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		2AB4B6161B209A77002B52C2 /* SwiftLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB4B6191B209A77002B52C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AB4B61A1B209A77002B52C2 /* SwiftLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearnTests.swift; sourceTree = "<group>"; };
@@ -92,13 +92,13 @@
 			isa = PBXGroup;
 			children = (
 				2A9ECB7E1B1CDFB1009E3A5D /* main.swift */,
-				2A9ECB881B1CE222009E3A5D /* collections.swift */,
-				2A9ECB8A1B1CE2BC009E3A5D /* variables.swift */,
-				2A99A9761B1CFE5100072E11 /* classes.swift */,
-				2A99A9781B1CFEA900072E11 /* structures.swift */,
-				2A8AE33F1B21E8EF0028AD3B /* closures.swift */,
-				2A1DFCDE1B414B9A00DC7CC4 /* inheritance.swift */,
-				2A1DFCE01B4152C700DC7CC4 /* controlflow.swift */,
+				2A9ECB881B1CE222009E3A5D /* Collections.swift */,
+				2A9ECB8A1B1CE2BC009E3A5D /* Variables.swift */,
+				2A99A9761B1CFE5100072E11 /* Classes.swift */,
+				2A99A9781B1CFEA900072E11 /* Structures.swift */,
+				2A8AE33F1B21E8EF0028AD3B /* Closures.swift */,
+				2A1DFCDE1B414B9A00DC7CC4 /* Inheritance.swift */,
+				2A1DFCE01B4152C700DC7CC4 /* ControlFlow.swift */,
 			);
 			path = SwiftLearn;
 			sourceTree = "<group>";
@@ -210,14 +210,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9ECB861B1CE00D009E3A5D /* README.md in Sources */,
-				2A9ECB891B1CE222009E3A5D /* collections.swift in Sources */,
-				2A8AE3401B21E8EF0028AD3B /* closures.swift in Sources */,
+				2A9ECB891B1CE222009E3A5D /* Collections.swift in Sources */,
+				2A8AE3401B21E8EF0028AD3B /* Closures.swift in Sources */,
 				2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */,
-				2A1DFCE11B4152C700DC7CC4 /* controlflow.swift in Sources */,
-				2A9ECB8B1B1CE2BC009E3A5D /* variables.swift in Sources */,
-				2A99A9771B1CFE5200072E11 /* classes.swift in Sources */,
-				2A1DFCDF1B414B9A00DC7CC4 /* inheritance.swift in Sources */,
-				2A99A9791B1CFEA900072E11 /* structures.swift in Sources */,
+				2A1DFCE11B4152C700DC7CC4 /* ControlFlow.swift in Sources */,
+				2A9ECB8B1B1CE2BC009E3A5D /* Variables.swift in Sources */,
+				2A99A9771B1CFE5200072E11 /* Classes.swift in Sources */,
+				2A1DFCDF1B414B9A00DC7CC4 /* Inheritance.swift in Sources */,
+				2A99A9791B1CFEA900072E11 /* Structures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,8 +225,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AB4B61F1B209EB6002B52C2 /* classes.swift in Sources */,
-				2A8AE3411B21EA370028AD3B /* closures.swift in Sources */,
+				2AB4B61F1B209EB6002B52C2 /* Classes.swift in Sources */,
+				2A8AE3411B21EA370028AD3B /* Closures.swift in Sources */,
 				2AB4B61B1B209A77002B52C2 /* SwiftLearnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

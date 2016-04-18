@@ -1,5 +1,5 @@
 //
-//  variables.swift
+//  Variables.swift
 //  SwiftLearn
 //
 //  Created by Alessio Saltarin on 01/06/15.

@@ -1,5 +1,5 @@
 //
-//  classes.swift
+//  Classes.swift
 //  SwiftLearn
 //
 //  Created by Alessio Saltarin on 01/06/15.
