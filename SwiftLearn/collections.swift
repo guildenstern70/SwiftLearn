@@ -52,7 +52,7 @@ func collectionDictionary()
                     2: "Two",
                     3: "Thre"]
     numbers[3] = "Three"
-    for var j=1; j<=numbers.count; j += 1
+    for j in 1...numbers.count
     {
         if ((numbers[j]) != nil)
         {

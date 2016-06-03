@@ -10,8 +10,10 @@ import Foundation
 
 extension String
 {
-    public func indexOf(char: Character) -> Int {
-        if let idx = self.characters.indexOf(char) {
+    public func indexOf(char: Character) -> Int
+    {
+        if let idx = self.characters.indexOf(char)
+        {
             return self.startIndex.distanceTo(idx)
         }
         return -1

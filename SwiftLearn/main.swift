@@ -22,6 +22,8 @@ somePersons()
 testInheritance()
 testLoops()
 testConditional()
+testSuit()
+
 
 
 

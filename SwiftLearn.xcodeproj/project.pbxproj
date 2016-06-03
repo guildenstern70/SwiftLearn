@@ -14,11 +14,11 @@
 		2A99A9771B1CFE5200072E11 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* Classes.swift */; };
 		2A99A9791B1CFEA900072E11 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9781B1CFEA900072E11 /* Structures.swift */; };
 		2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB7E1B1CDFB1009E3A5D /* main.swift */; };
-		2A9ECB861B1CE00D009E3A5D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB851B1CE00D009E3A5D /* README.md */; };
 		2A9ECB891B1CE222009E3A5D /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB881B1CE222009E3A5D /* Collections.swift */; };
 		2A9ECB8B1B1CE2BC009E3A5D /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB8A1B1CE2BC009E3A5D /* Variables.swift */; };
-		2AB4B61B1B209A77002B52C2 /* SwiftLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB4B61A1B209A77002B52C2 /* SwiftLearnTests.swift */; };
 		2AB4B61F1B209EB6002B52C2 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* Classes.swift */; };
+		8005B46D67AAE990268E38A7 /* AllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005B24A52E8E6BA1F4AF9EB /* AllTests.swift */; };
+		8005B57369778C3BDBE692BF /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005BEDFF3E492C53DE16758 /* Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,7 +47,8 @@
 		2A9ECB8A1B1CE2BC009E3A5D /* Variables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
 		2AB4B6161B209A77002B52C2 /* SwiftLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB4B6191B209A77002B52C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AB4B61A1B209A77002B52C2 /* SwiftLearnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftLearnTests.swift; sourceTree = "<group>"; };
+		8005B24A52E8E6BA1F4AF9EB /* AllTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllTests.swift; sourceTree = "<group>"; };
+		8005BEDFF3E492C53DE16758 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 				2A8AE33F1B21E8EF0028AD3B /* Closures.swift */,
 				2A1DFCDE1B414B9A00DC7CC4 /* Inheritance.swift */,
 				2A1DFCE01B4152C700DC7CC4 /* ControlFlow.swift */,
+				8005BEDFF3E492C53DE16758 /* Enum.swift */,
 			);
 			path = SwiftLearn;
 			sourceTree = "<group>";
@@ -106,8 +108,8 @@
 		2AB4B6171B209A77002B52C2 /* SwiftLearnTests */ = {
 			isa = PBXGroup;
 			children = (
-				2AB4B61A1B209A77002B52C2 /* SwiftLearnTests.swift */,
 				2AB4B6181B209A77002B52C2 /* Supporting Files */,
+				8005B24A52E8E6BA1F4AF9EB /* AllTests.swift */,
 			);
 			path = SwiftLearnTests;
 			sourceTree = "<group>";
@@ -209,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A9ECB861B1CE00D009E3A5D /* README.md in Sources */,
 				2A9ECB891B1CE222009E3A5D /* Collections.swift in Sources */,
 				2A8AE3401B21E8EF0028AD3B /* Closures.swift in Sources */,
 				2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */,
@@ -218,6 +219,8 @@
 				2A99A9771B1CFE5200072E11 /* Classes.swift in Sources */,
 				2A1DFCDF1B414B9A00DC7CC4 /* Inheritance.swift in Sources */,
 				2A99A9791B1CFEA900072E11 /* Structures.swift in Sources */,
+				8005B57369778C3BDBE692BF /* Enum.swift in Sources */,
+				8005B46D67AAE990268E38A7 /* AllTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +230,6 @@
 			files = (
 				2AB4B61F1B209EB6002B52C2 /* Classes.swift in Sources */,
 				2A8AE3411B21EA370028AD3B /* Closures.swift in Sources */,
-				2AB4B61B1B209A77002B52C2 /* SwiftLearnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
