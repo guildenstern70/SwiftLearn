@@ -6,6 +6,7 @@
 //  Copyright (c) 2016 Alessio Saltarin. All rights reserved.
 //
 
+import Cocoa
 import XCTest
 
 class AllTests: XCTestCase
