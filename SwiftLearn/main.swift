@@ -23,6 +23,7 @@ testInheritance()
 testLoops()
 testConditional()
 testSuit()
+testFiles()
 
 
 

@@ -6,18 +6,16 @@
       <sourceFolder url="file://$MODULE_DIR$/SwiftLearnTests/AllTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftLearnTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LICENSE" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/Closures.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/collections.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/Enum.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/Classes.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/Structures.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/inheritance.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/closures.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/main.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/structures.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/ControlFlow.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/Collections.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/Variables.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/Inheritance.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/classes.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SwiftLearn/variables.swift" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/SwiftLearn-akfrkiiqwvrlkjbwvtxewzfjhxrt/Build/Intermediates/SwiftLearn.build/Debug/SwiftLearn.build/DerivedSources" />
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.1/DerivedData/SwiftLearn-akfrkiiqwvrlkjbwvtxewzfjhxrt/Build/Intermediates/SwiftLearn.build/Debug/SwiftLearnTests.build/DerivedSources" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Header Search Paths">
