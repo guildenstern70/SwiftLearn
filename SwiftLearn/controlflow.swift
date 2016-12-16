@@ -47,21 +47,21 @@ func testLoops()
 
 func testConditional()
 {
-    let varA:Int = 100;
+    let oneVariable = Int(arc4random_uniform(100) + 1)
     
-    if varA == 20
+    if oneVariable == 20
     {
-        print("varA is equal to than 20");
+        print("'oneVariable' is equal to than 20");
     }
-    else if varA == 50
+    else if oneVariable == 50
     {
-        print("varA is equal to than 50");
+        print("'oneVariable' is equal to than 50");
     }
     else
     {
         print("None of the values is matching");
     }
-    print("Value of variable varA is \(varA)");
+    print("Value of variable 'oneVariable' is \(oneVariable)");
 }
 
 

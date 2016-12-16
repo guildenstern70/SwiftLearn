@@ -15,7 +15,7 @@ func testInheritance()
 
 class ShapeFactory
 {
-    class func create(sides: Int) -> Shape?
+    class func create(_ sides: Int) -> Shape?
     {
         
         switch sides
@@ -32,7 +32,7 @@ class ShapeFactory
         
     }
     
-    class func createSome(howmany: Int)
+    class func createSome(_ howmany: Int)
     {
         for _ in 1...howmany
         {
@@ -58,14 +58,14 @@ class Shape
     var sideLen: Int
 
     // Abstract class
-    private init(name: String)
+    fileprivate init(name: String)
     {
         self.name = name
         self.sideLen = 0
         self.numberOfSides = 0
     }
     
-    func setSideLength(valx: Int)
+    func setSideLength(_ valx: Int)
     {
         self.sideLen = valx
     }

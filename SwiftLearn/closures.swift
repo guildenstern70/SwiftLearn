@@ -11,7 +11,7 @@ import Foundation
 /**
  * This function takes in input a list and another function
  **/
-func sumNumbers(list: [Int], condition: Int -> Bool) -> Int
+func sumNumbers(_ list: [Int], condition: (Int) -> Bool) -> Int
 {
     var sum = 0
     
@@ -26,12 +26,12 @@ func sumNumbers(list: [Int], condition: Int -> Bool) -> Int
     return sum
 }
 
-func lessThanTen(number: Int) -> Bool
+func lessThanTen(_ number: Int) -> Bool
 {
     return number < 10
 }
 
-func isEven(number: Int) -> Bool
+func isEven(_ number: Int) -> Bool
 {
     return (number % 2 == 0)
 }

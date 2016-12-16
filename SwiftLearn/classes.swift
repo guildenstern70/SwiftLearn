@@ -10,17 +10,17 @@ import Foundation
 
 extension String
 {
-    public func indexOf(char: Character) -> Int
+    public func indexOf(_ char: Character) -> Int
     {
-        if let idx = self.characters.indexOf(char)
+        if let idx = self.characters.index(of: char)
         {
-            return self.startIndex.distanceTo(idx)
+            return self.characters.distance(from: self.startIndex, to: idx)
         }
         return -1
     }
 }
 
-public class Person : CustomStringConvertible
+open class Person : CustomStringConvertible
 {
     
     var name: String
@@ -36,7 +36,7 @@ public class Person : CustomStringConvertible
         self.surname = "Unknown surname"
     }
     
-    // Constructior Two
+    // Constructor Two
     public init(name: String, surname: String)
     {
         self.name = name
@@ -44,7 +44,7 @@ public class Person : CustomStringConvertible
     }
     
     // Getter and Setter
-    public var completeName: String
+    open var completeName: String
     {
         get
         {
@@ -58,10 +58,10 @@ public class Person : CustomStringConvertible
             let idx = complete.indexOf(needle)
             if (idx > 0)
             {
-                let uni_idx = complete.startIndex.advancedBy(idx)
-                let uni_idx2 = complete.startIndex.advancedBy(idx+1)
-                self.name = complete.substringToIndex(uni_idx)
-                self.surname = complete.substringFromIndex(uni_idx2)
+                let uni_idx = complete.characters.index(complete.startIndex, offsetBy: idx)
+                let uni_idx2 = complete.characters.index(complete.startIndex, offsetBy: idx+1)
+                self.name = complete.substring(to: uni_idx)
+                self.surname = complete.substring(from: uni_idx2)
             }
             else
             {
@@ -72,13 +72,13 @@ public class Person : CustomStringConvertible
     }
     
     // toString equivalent - member of Printable
-    public var description: String
+    open var description: String
     {
         return "\(self.name) \(self.surname)"
     }
     
     // Public Void Method
-    public func swapNames()
+    open func swapNames()
     {
         let oldName = self.name
         let oldSurname = self.surname
@@ -87,7 +87,7 @@ public class Person : CustomStringConvertible
     }
     
     // Method with return value
-    public func nameLength() -> Int
+    open func nameLength() -> Int
     {
         return self.name.characters.count
     }

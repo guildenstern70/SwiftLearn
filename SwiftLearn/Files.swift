@@ -9,7 +9,7 @@
 import Foundation
 
 
-public class Files
+open class Files
 {
     
     var name: String
@@ -24,11 +24,11 @@ public class Files
     
     func delete()
     {
-        let fileManager = NSFileManager.defaultManager()
+        let fileManager = FileManager.default
         
         do
         {
-            try fileManager.removeItemAtURL(self.getFileURL())
+            try fileManager.removeItem(at: self.getFileURL())
         }
         catch let error as NSError
         {
@@ -43,7 +43,7 @@ public class Files
 
         do
         {
-            text = try NSString(contentsOfURL: path, encoding: NSUTF8StringEncoding)
+            text = try NSString(contentsOf: path, encoding: String.Encoding.utf8.rawValue)
         }
         catch let error as NSError
         {
@@ -54,14 +54,14 @@ public class Files
         return text as String
     }
     
-    func write(contents: String)
+    func write(_ contents: String)
     {
         
         let path = self.getFileURL()
         
         do
         {
-            try contents.writeToURL(path, atomically: false, encoding: NSUTF8StringEncoding)
+            try contents.write(to: path, atomically: false, encoding: String.Encoding.utf8)
         }
         catch let error as NSError
         {
@@ -71,9 +71,9 @@ public class Files
         
     }
     
-    private func getFileURL() -> NSURL
+    fileprivate func getFileURL() -> URL
     {
-        return NSURL(fileURLWithPath: self.path).URLByAppendingPathComponent(self.name)
+        return URL(fileURLWithPath: self.path).appendingPathComponent(self.name)
     }
 }
 

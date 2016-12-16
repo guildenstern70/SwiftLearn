@@ -13,11 +13,11 @@ import Foundation
 func collectionArray()
 {
     // Empty mutable collection
-    var listOfInts = [Int]()
-    listOfInts.append(10)
+    var listOfIntegers = [Int]()
+    listOfIntegers.append(10)
     
     // Array creation with initialization
-    let threeDoubles = [Double](count: 3, repeatedValue: 0.0)
+    let threeDoubles = [Double](repeating: 0.0, count: 3)
     print("Array threeDoubles contain \(threeDoubles.count) items")
 
     // Collection of Strings
@@ -31,7 +31,7 @@ func collectionArray()
     cardNames.append("Ten")
     
     // Add item at pos
-    cardNames.insert("Nine", atIndex: 0)
+    cardNames.insert("Nine", at: 0)
     
     // Array slice (from...to)
     _ = cardNames[2...cardNames.count-1]
@@ -50,7 +50,7 @@ func collectionDictionary()
 {
     var numbers = [ 1: "One",
                     2: "Two",
-                    3: "Thre"]
+                    3: "Three"]
     numbers[3] = "Three"
     for j in 1...numbers.count
     {
