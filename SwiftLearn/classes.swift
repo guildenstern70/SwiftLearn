@@ -8,18 +8,6 @@
 
 import Foundation
 
-extension String
-{
-    public func indexOf(_ char: Character) -> Int
-    {
-        if let idx = self.characters.index(of: char)
-        {
-            return self.characters.distance(from: self.startIndex, to: idx)
-        }
-        return -1
-    }
-}
-
 open class Person : CustomStringConvertible
 {
     
@@ -55,18 +43,17 @@ open class Person : CustomStringConvertible
         {
             let complete = newValue
             let needle: Character = " "
-            let idx = complete.indexOf(needle)
-            if (idx > 0)
+            if let idx = complete.index(of: needle)
             {
-                let uni_idx = complete.characters.index(complete.startIndex, offsetBy: idx)
-                let uni_idx2 = complete.characters.index(complete.startIndex, offsetBy: idx+1)
-                self.name = complete.substring(to: uni_idx)
-                self.surname = complete.substring(from: uni_idx2)
+                self.name = String(complete[..<idx]) // Partial Range from 0 to uni_idx
+                self.surname = String(complete[idx...]) // Partial Range from uni_idx2 to end
             }
             else
             {
                 print("Please insert [Name Surname]")
             }
+
+            
         }
         
     }
@@ -89,7 +76,7 @@ open class Person : CustomStringConvertible
     // Method with return value
     open func nameLength() -> Int
     {
-        return self.name.characters.count
+        return self.name.count
     }
     
     

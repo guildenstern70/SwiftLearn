@@ -34,6 +34,10 @@ open class Files
         {
             print("Ooops! Something went wrong in deleting file: \(error)")
         }
+        catch
+        {
+            print("Critical generic error.")
+        }
     }
     
     func read() -> String?
@@ -49,6 +53,10 @@ open class Files
         {
             print("error reading from url \(self.path)")
             print(error.localizedDescription)
+        }
+        catch
+        {
+            print("Critical generic error.")
         }
         
         return text as String
@@ -67,6 +75,10 @@ open class Files
         {
             print("error writing to url \(path)")
             print(error.localizedDescription)
+        }
+        catch
+        {
+            print("Critical generic error.")
         }
         
     }
