@@ -8,7 +8,7 @@
 
 import Foundation
 
-let VERSION = "0.3"
+let VERSION = "0.4"
 
 print("SwiftLearn v.\(VERSION)")
 print("")

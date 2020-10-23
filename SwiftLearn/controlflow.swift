@@ -62,6 +62,14 @@ func testConditional()
         print("None of the values is matching");
     }
     print("Value of variable 'oneVariable' is \(oneVariable)");
+
+    // Optional binding. Often without the "else" part
+    let optionalName: String? = "Alessio"
+    if let constantName = optionalName {
+        print("The Optional Name is " + constantName)
+    } else {
+        print("Optional Name is NIL")
+    }
 }
 
 
