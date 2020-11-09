@@ -85,7 +85,7 @@ open class Files
     
     fileprivate func getFileURL() -> URL
     {
-        return URL(fileURLWithPath: self.path).appendingPathComponent(self.name)
+        URL(fileURLWithPath: self.path).appendingPathComponent(self.name)
     }
 }
 

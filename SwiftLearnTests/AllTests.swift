@@ -15,13 +15,27 @@ class AllTests: XCTestCase
     override func setUp()
     {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
     override func tearDown()
     {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
+    }
+
+    func testClasses()
+    {
+        let alessio = Person(name:"Alessio", surname:"Saltarin")
+        let matteo = Person(name:"Matteo", surname:"Tenconi")
+        print(alessio)
+        XCTAssertEqual(alessio.name, "Alessio")
+        alessio.swapNames()
+        XCTAssertEqual(alessio.name, "Saltarin")
+        print(alessio)
+        print(matteo)
+        let dana = Person()
+        dana.completeName = "Dana Sandu"
+        dana.setAge(age: 25)
+        XCTAssertEqual(dana.age, 25)
     }
 
     func testVariables()

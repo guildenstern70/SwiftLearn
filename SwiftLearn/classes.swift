@@ -36,7 +36,7 @@ open class Person : CustomStringConvertible
     {
         get
         {
-            return self.description
+            self.description
         }
         
         set
@@ -52,8 +52,6 @@ open class Person : CustomStringConvertible
             {
                 print("Please insert [Name Surname]")
             }
-
-            
         }
         
     }
@@ -61,7 +59,13 @@ open class Person : CustomStringConvertible
     // toString equivalent - member of Printable
     open var description: String
     {
-        return "\(self.name) \(self.surname)"
+        "\(self.name) \(self.surname) of age \(self.age)"
+    }
+
+    // This method uses a "named" parameter
+    open func setAge(age anAge: Int)
+    {
+        self.age = anAge
     }
     
     // Public Void Method
@@ -76,23 +80,9 @@ open class Person : CustomStringConvertible
     // Method with return value
     open func nameLength() -> Int
     {
-        return self.name.count
+        self.name.count
     }
     
     
 }
 
-
-func somePersons()
-{
-    let alessio = Person(name:"Alessio", surname:"Saltarin")
-    let matteo = Person(name:"Matteo", surname:"Tenconi")
-    print(alessio)
-    alessio.swapNames()
-    print(alessio)
-    print("Alessio has \(alessio.nameLength()) chars.")
-    print(matteo)
-    let dana = Person()
-    dana.completeName = "Dana Sandu"
-    print(dana)
-}

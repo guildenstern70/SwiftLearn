@@ -72,12 +72,12 @@ class Shape
     
     func getPerimeter() -> Int
     {
-        return self.numberOfSides * self.sideLen
+        self.numberOfSides * self.sideLen
     }
 
     var description: String
     {
-        return "A shape with \(self.numberOfSides) sides."
+        "A shape with \(self.numberOfSides) sides."
     }
 
 }
@@ -92,7 +92,7 @@ class Triangle : Shape
     
     override var description : String
     {
-        return "A triangle"
+        "A triangle"
     }
     
 }
@@ -107,7 +107,7 @@ class Square : Shape
     
     override var description : String
     {
-            return "A square"
+        "A square"
     }
     
 }
@@ -122,7 +122,7 @@ class Pentagon : Shape
     
     override var description : String
     {
-            return "A pentagon"
+        "A pentagon"
     }
     
 }

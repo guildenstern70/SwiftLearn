@@ -28,12 +28,12 @@ func sumNumbers(_ list: [Int], condition: (Int) -> Bool) -> Int
 
 func lessThanTen(_ number: Int) -> Bool
 {
-    return number < 10
+    number < 10
 }
 
 func isEven(_ number: Int) -> Bool
 {
-    return (number % 2 == 0)
+    (number % 2 == 0)
 }
 
 func testClosures()
