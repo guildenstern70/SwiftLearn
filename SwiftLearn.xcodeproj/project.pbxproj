@@ -13,7 +13,7 @@
 		2A8AE3411B21EA370028AD3B /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8AE33F1B21E8EF0028AD3B /* Closures.swift */; };
 		2A8CC6DD1D084E4300777FE0 /* AllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005B24A52E8E6BA1F4AF9EB /* AllTests.swift */; };
 		2A8CC6DE1D084EDB00777FE0 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005BEDFF3E492C53DE16758 /* Enum.swift */; };
-		2A8CC6E01D0850FB00777FE0 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CC6DF1D0850FB00777FE0 /* Files.swift */; };
+		2A8CC6E01D0850FB00777FE0 /* XFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CC6DF1D0850FB00777FE0 /* XFiles.swift */; };
 		2A99A9771B1CFE5200072E11 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* Classes.swift */; };
 		2A99A9791B1CFEA900072E11 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9781B1CFEA900072E11 /* Structures.swift */; };
 		2A9ECB7F1B1CDFB1009E3A5D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB7E1B1CDFB1009E3A5D /* main.swift */; };
@@ -21,6 +21,7 @@
 		2A9ECB8B1B1CE2BC009E3A5D /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9ECB8A1B1CE2BC009E3A5D /* Variables.swift */; };
 		2AB4B61F1B209EB6002B52C2 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99A9761B1CFE5100072E11 /* Classes.swift */; };
 		8005B57369778C3BDBE692BF /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8005BEDFF3E492C53DE16758 /* Enum.swift */; };
+		C94D2EDEFDEB867157B33C60 /* XFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8CC6DF1D0850FB00777FE0 /* XFiles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,7 +40,7 @@
 		2A1DFCDE1B414B9A00DC7CC4 /* Inheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Inheritance.swift; sourceTree = "<group>"; };
 		2A1DFCE01B4152C700DC7CC4 /* ControlFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlFlow.swift; sourceTree = "<group>"; };
 		2A8AE33F1B21E8EF0028AD3B /* Closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
-		2A8CC6DF1D0850FB00777FE0 /* Files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		2A8CC6DF1D0850FB00777FE0 /* XFiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFiles.swift; sourceTree = "<group>"; };
 		2A99A9761B1CFE5100072E11 /* Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		2A99A9781B1CFEA900072E11 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 		2A9ECB7B1B1CDFB1009E3A5D /* SwiftLearn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftLearn; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +105,7 @@
 				2A1DFCDE1B414B9A00DC7CC4 /* Inheritance.swift */,
 				2A1DFCE01B4152C700DC7CC4 /* ControlFlow.swift */,
 				8005BEDFF3E492C53DE16758 /* Enum.swift */,
-				2A8CC6DF1D0850FB00777FE0 /* Files.swift */,
+				2A8CC6DF1D0850FB00777FE0 /* XFiles.swift */,
 			);
 			path = SwiftLearn;
 			sourceTree = "<group>";
@@ -224,7 +225,7 @@
 				2A9ECB8B1B1CE2BC009E3A5D /* Variables.swift in Sources */,
 				2A99A9771B1CFE5200072E11 /* Classes.swift in Sources */,
 				2A1DFCDF1B414B9A00DC7CC4 /* Inheritance.swift in Sources */,
-				2A8CC6E01D0850FB00777FE0 /* Files.swift in Sources */,
+				2A8CC6E01D0850FB00777FE0 /* XFiles.swift in Sources */,
 				2A99A9791B1CFEA900072E11 /* Structures.swift in Sources */,
 				8005B57369778C3BDBE692BF /* Enum.swift in Sources */,
 			);
@@ -238,6 +239,7 @@
 				2A8CC6DD1D084E4300777FE0 /* AllTests.swift in Sources */,
 				2AB4B61F1B209EB6002B52C2 /* Classes.swift in Sources */,
 				2A8AE3411B21EA370028AD3B /* Closures.swift in Sources */,
+				C94D2EDEFDEB867157B33C60 /* XFiles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

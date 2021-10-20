@@ -3,12 +3,16 @@
 //  SwiftLearn
 //
 //  Created by Alessio Saltarin on 03/06/16.
-//  Copyright (c) 2016 Alessio Saltarin. All rights reserved.
+//  Copyright (c) 2016-21 Alessio Saltarin. All rights reserved.
 //
 
 import Cocoa
 import XCTest
 
+/*
+ Classes need to be added to SwiftLearnTests Project Settings (Build Phase)
+ in order to be found
+ */
 class AllTests: XCTestCase
 {
 
@@ -59,6 +63,30 @@ class AllTests: XCTestCase
         testClosures()
         let someSuit = Suit.SPADE
         XCTAssertEqual(someSuit, Suit.SPADE)
+    }
+
+    func testFiles()
+    {
+
+        let path = NSTemporaryDirectory() as String
+        let contents = "Prova File - Prova File"
+
+        let files = XFiles(filename: "prova.txt", filepath: path)
+        files.write(contents)
+
+        let readFile = files.read()
+
+        if (contents == readFile)
+        {
+            print ("Ok, file write and read successful")
+        }
+        else
+        {
+            print ("Error in reading/writing file")
+        }
+
+        files.delete()
+
     }
 
 }

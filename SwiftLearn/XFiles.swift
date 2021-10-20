@@ -9,7 +9,7 @@
 import Foundation
 
 
-open class Files
+open class XFiles
 {
     
     var name: String
@@ -89,26 +89,4 @@ open class Files
     }
 }
 
-func testFiles()
-{
-    
-    let path = NSTemporaryDirectory() as String
-    let contents = "Prova File - Prova File"
-    
-    let files = Files(filename: "prova.txt", filepath: path)
-    files.write(contents)
-    
-    let readFile = files.read()
-    
-    if (contents == readFile)
-    {
-        print ("Ok, file write and read successful")
-    }
-    else
-    {
-        print ("Error in reading/writing file")
-    }
-    
-    files.delete()
-    
-}
+
