@@ -43,7 +43,7 @@ open class Person : CustomStringConvertible
         {
             let complete = newValue
             let needle: Character = " "
-            if let idx = complete.index(of: needle)
+            if let idx = complete.firstIndex(of: needle)
             {
                 self.name = String(complete[..<idx]) // Partial Range from 0 to uni_idx
                 self.surname = String(complete[idx...]) // Partial Range from uni_idx2 to end
