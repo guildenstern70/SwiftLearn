@@ -35,14 +35,14 @@ class ShapeFactory
     {
         for _ in 1...howmany
         {
-            let nr: Int = Int(arc4random_uniform(6))
+            let nr = Int.random(in: 0..<6)
             let shape : Shape? = ShapeFactory.create(nr)
             if (shape != nil)
             {
                 let theShape = shape!
                 let shapeDesc = theShape.description
                 print("\(shapeDesc) has been created.", terminator: "")
-                let sideLen = Int(arc4random_uniform(99))
+                let sideLen = Int.random(in: 0..<99)
                 shape?.setSideLength(sideLen)
                 print(" Its perimeter is \(theShape.getPerimeter())")
             }

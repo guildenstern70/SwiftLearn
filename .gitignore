@@ -34,9 +34,6 @@ Carthage/Build
 
 # IDE
 .idea/
+.bob/
 SwiftLearn.xcworkspace
 SwiftLearn.xcodeproj
-
-
-
-

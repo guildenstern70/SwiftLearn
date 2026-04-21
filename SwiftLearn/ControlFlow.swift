@@ -47,7 +47,7 @@ func testLoops()
 
 func testConditional()
 {
-    let oneVariable = Int(arc4random_uniform(100) + 1)
+    let oneVariable = Int.random(in: 1...100)
     
     if oneVariable == 20
     {

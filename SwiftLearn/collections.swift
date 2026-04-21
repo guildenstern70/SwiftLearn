@@ -54,9 +54,9 @@ func collectionDictionary()
     numbers[3] = "Three"
     for j in 1...numbers.count
     {
-        if ((numbers[j]) != nil)
+        if let number = numbers[j]
         {
-            print(numbers[j]!)
+            print(number)
         }
     }
 }

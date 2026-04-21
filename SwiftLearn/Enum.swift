@@ -8,19 +8,19 @@
 
 import Foundation
 
-public enum Suit : String
+public enum Suit: String
 {
-    case SPADE
-    case CLUB
-    case HEART
-    case DIAMOND
+    case spade
+    case club
+    case heart
+    case diamond
 }
 
 func testSuit()
 {
-    let someSuit = Suit.CLUB
+    let someSuit = Suit.club
 
-    if (someSuit == Suit.CLUB)
+    if someSuit == Suit.club
     {
         Swift.print("Suit is " + someSuit.rawValue)
     }
