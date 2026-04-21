@@ -1,9 +1,9 @@
 //
-//  AllTests.swift
 //  SwiftLearn
 //
-//  Created by Alessio Saltarin on 03/06/16.
-//  Copyright (c) 2016-21 Alessio Saltarin. All rights reserved.
+//  Created by Alessio Saltarin on 01/06/15.
+//  Copyright (c) 2015-2026 Alessio Saltarin.
+//  All rights reserved.
 //
 
 import Cocoa
