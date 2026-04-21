@@ -32,6 +32,11 @@ DerivedData
 
 Carthage/Build
 
-# AppCode
-.idea
+# IDE
+.idea/
+SwiftLearn.xcworkspace
+SwiftLearn.xcodeproj
+
+
+
 
